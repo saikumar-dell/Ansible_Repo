@@ -1,10 +1,14 @@
 ---
 - host: all
-  task:
-     - name: I want to ping all my servers
-       ping:
-     - name: I want to install git on ubnuntu16
-      apt: 
+  became: yes
+  tasks:
+  - name: I want to ping all my servers
+    ping:
+  - name: I want to install git on ubnuntu16
+    apt: 
       name: git
       state: present
-      - name: I want to install
+  - name: I want to install tree on ubnuntu16
+    apt: 
+      name: tree
+      state: present
