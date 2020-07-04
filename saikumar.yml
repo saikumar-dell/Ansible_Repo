@@ -1,0 +1,12 @@
+---
+
+key: Student
+   -Name: Saikumar
+   -Place: India
+   - Number: 9676465556
+Key: Biodata
+  -Height: 5.10
+  -Color: No
+Key: Occupation
+  -IBM: Software Developer
+  
